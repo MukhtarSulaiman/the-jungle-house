@@ -1,0 +1,19 @@
+.banner-wrapper {
+    color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+}
+
+.banner-wrapper h1 {
+	padding-left: 32px;
+}
+
+.banner-wrapper img {
+	height: 45px;
+	width: 45px;
+}
