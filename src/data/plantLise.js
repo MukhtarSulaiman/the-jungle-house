@@ -4,7 +4,7 @@ import monstera from '../assets/monstera.jpeg';
 export const plantList = [
      {
           name: 'monstera',
-          category: 'classique',
+          category: 'classic',
           id: '1ed',
           isBestSale: true,
           light: 2,
@@ -13,7 +13,7 @@ export const plantList = [
      },
      {
           name: 'ficus lyrata',
-          category: 'classique',
+          category: 'classic',
           id: '2ab',
           light: 3,
           water: 1,
@@ -21,7 +21,7 @@ export const plantList = [
      },
      {
           name: 'pothos argenté',
-          category: 'classique',
+          category: 'classic',
           id: '3sd',
           light: 1,
           water: 2,
@@ -29,7 +29,7 @@ export const plantList = [
      },
      {
           name: 'yucca',
-          category: 'classique',
+          category: 'classic',
           id: '4kk',
           light: 3,
           water: 1,
@@ -37,23 +37,23 @@ export const plantList = [
      },
      {
           name: 'olivier',
-          category: 'extérieur',
+          category: 'outdoor plant',
           id: '5pl',
           light: 3,
           water: 1,
           cover: monstera,
      },
      {
-          name: 'géranium',
-          category: 'extérieur',
+          name: 'geranium',
+          category: 'outdoor plant',
           id: '6uo',
           light: 2,
           water: 2,
           cover: monstera,
      },
      {
-          name: 'basilique',
-          category: 'extérieur',
+          name: 'great basil',
+          category: 'outdoor plant',
           id: '7ie',
           isBestSale: true,
           light: 2,
@@ -62,15 +62,15 @@ export const plantList = [
      },
      {
           name: 'aloe',
-          category: 'plante grasse',
+          category: 'succulent plant',
           id: '8fp',
           light: 2,
           water: 1,
           cover: monstera,
      },
      {
-          name: 'succulente',
-          category: 'plante grasse',
+          name: 'succulent',
+          category: 'succulent plant',
           id: '9vn',
           light: 2,
           water: 1,

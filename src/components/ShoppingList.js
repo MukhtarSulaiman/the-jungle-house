@@ -22,6 +22,7 @@ const ShoppingList = () => {
                <ul className='shopping__plant-list'>
                     {plantList.map(({ id, cover, name, water, light }) => (
                          <PlantItem
+                              key={id}
                               id={id}
                               cover={cover}
                               name={name}

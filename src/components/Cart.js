@@ -16,7 +16,7 @@ const Cart = () => {
                <ul>
                     <li>Monstera : {monsteraPrice}€</li>
                     <li>Lierre : {ivyPrice}€</li>
-                    <li>Fleurs : {flowerPrice}€</li>
+                    <li>flower : {flowerPrice}€</li>
                </ul>
                Total : {monsteraPrice + ivyPrice + flowerPrice}€
           </div>
