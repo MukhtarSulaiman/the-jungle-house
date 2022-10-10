@@ -1,5 +1,6 @@
 .cart-wrapper {
      padding: 32px;
+	min-width: 250px;
      color: #fff;
      background-color: #31b572;
 }

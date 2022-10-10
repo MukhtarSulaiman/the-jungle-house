@@ -12,3 +12,11 @@
 	flex-direction: column;
 	text-transform: capitalize;
 }
+
+.plant-name-price {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+

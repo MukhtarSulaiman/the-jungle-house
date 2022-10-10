@@ -2,15 +2,15 @@
 import React from 'react';
 import '../styles/Cart.css';
 
-const Cart = () => {
+const Cart = ({ cart, setCart }) => {
 
-     const monsteraPrice = 8;
-     const [cart, setCart] = React.useState(0);
+     
      const [isCartHidden, setIsCartHidden] = React.useState(true);
 
-     function updateCart(cart) {
-          setCart(cart);
-     }
+     const total = cart.reduce((accumulator, currentValue) => {
+          return accumulator + currentValue.ammount * currentValue.price;
+     }, 0)
+
      return isCartHidden ? (
           <div className='cart-wrapper'>
                <button
@@ -19,15 +19,12 @@ const Cart = () => {
                     Close it
                </button>
                <h2>Cart</h2>
-               <div>
-                    Monstera: {cart}€
-                    <button
-                         onClick={() => updateCart(cart + 1)}
-                         className='cart-add-button'>
-                         Add
-                    </button>
-               </div>
-               <p>Total : {monsteraPrice * cart}€</p>
+               <ul>
+                    {cart.map(({name, price, ammount}, index) => {
+                         return <li key={index}>{ name } { price }€ X { ammount }</li>
+                    })}
+               </ul>
+               <p>Total : {total}€</p>
                {cart > 0 && (
                     <button onClick={() => setCart(0)}>Clear the cart</button>
                )}
