@@ -1,16 +1,18 @@
 /** @format */
+import './styles/App.css';
 import Cart from './components/Cart';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
-import './styles/index.css'
 import ShoppingList from './components/ShoppingList';
 
 function App() {
      return (
           <div className='App'>
                <Banner />
-               <Cart />
-               <ShoppingList />
+               <main className='main-layout-inner'>
+                    <Cart />
+                    <ShoppingList />
+               </main>
                <Footer />
           </div>
      );

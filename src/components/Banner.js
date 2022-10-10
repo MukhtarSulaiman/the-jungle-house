@@ -6,8 +6,8 @@ import '../styles/Banner.css';
 const Banner = () => {
      return (
           <header className='banner-wrapper'>
+               <img src={logo} alt='logo' />
                <h1>The jungle house</h1>
-               <img src={logo} alt="logo" />
           </header>
      );
 };
