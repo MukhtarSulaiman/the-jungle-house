@@ -1,0 +1,14 @@
+.categories {
+     margin: 1.5rem auto;
+     width: 300Px; 
+}
+
+.categories select {
+     width: 130px;
+     padding: .3rem;
+     margin-right: .6rem;
+}
+
+.categories button {
+     padding: .2rem;
+}

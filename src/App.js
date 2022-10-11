@@ -10,7 +10,7 @@ import './styles/App.css';
 function App() {
 
      const [cart, setCart] = React.useState([]);
-     // console.log(cart)
+     
      return (
           <div className='App'>
                <Banner />

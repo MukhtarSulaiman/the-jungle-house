@@ -3,14 +3,15 @@
 	min-width: 250px;
      color: #fff;
      background-color: #31b572;
+	position: relative;
 }
 
-.cart-add-button {
+.cart__add-btn {
 	margin-left: 32px;
 	cursor: pointer;
 }
 
-.cart-toggle-button {
+.cart__toggle-btn {
 	background: none;
 	outline: none;
 	border: none;
@@ -21,11 +22,23 @@
 	color: white;
 }
 
-.cart-closed {
+.cart__toggle-btn.close-btn {
+	font-size: 1.5rem;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.cart__close-btn {
 	padding: 32px;
 	width: 200px;
 }
 
-.cart-closed > button {
+.cart__close-btn > button {
 	color: black;
+	font-size: 1rem;
+	padding: .4rem;
+	color: #fff;
+	background-color: #31b572;
+	border-radius: 5px;
 }

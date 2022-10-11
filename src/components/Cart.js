@@ -15,13 +15,13 @@ const Cart = ({ cart, setCart }) => {
           <div className='cart-wrapper'>
                <button
                     onClick={() => setIsCartHidden(false)}
-                    className='cart-toggle-button'>
-                    Close it
+                    className='cart__toggle-btn close-btn'>
+                    X
                </button>
                <h2>Cart</h2>
                <ul>
                     {cart.map(({name, price, ammount}, index) => {
-                         return <li key={index}>{ name } { price }€ X { ammount }</li>
+                         return <li key={index}>{ name } { price }€ x { ammount }</li>
                     })}
                </ul>
                <p>Total : {total}€</p>
@@ -30,10 +30,10 @@ const Cart = ({ cart, setCart }) => {
                )}
           </div>
      ) : (
-          <div className='cart-closed'>
+          <div className='cart__close-btn'>
                <button
                     onClick={() => setIsCartHidden(true)}
-                    className='cart-toggle-button'>
+                    className='cart__toggle-btn'>
                     Open the cart
                </button>
           </div>

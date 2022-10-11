@@ -13,7 +13,7 @@ import cactus from '../assets/cactus.jpeg';
 export const plantList = [
      {
           name: 'monstera',
-          category: 'classique',
+          category: 'classic',
           id: '1ed',
           light: 2,
           water: 3,
@@ -22,7 +22,7 @@ export const plantList = [
      },
      {
           name: 'ficus lyrata',
-          category: 'classique',
+          category: 'classic',
           id: '2ab',
           light: 3,
           water: 1,
@@ -32,7 +32,7 @@ export const plantList = [
 
      {
           name: 'pothos argenté',
-          category: 'classique',
+          category: 'classic',
           id: '3sd',
           light: 1,
           water: 2,
@@ -42,7 +42,7 @@ export const plantList = [
      },
      {
           name: 'calathea',
-          category: 'classique',
+          category: 'classic',
           id: '4kk',
           light: 2,
           water: 3,
@@ -52,7 +52,7 @@ export const plantList = [
      },
      {
           name: 'olivier',
-          category: 'extérieur',
+          category: 'outdoor plant',
           id: '5pl',
           light: 3,
           water: 1,
@@ -62,7 +62,7 @@ export const plantList = [
 
      {
           name: 'cactus',
-          category: 'plante grasse',
+          category: 'succulent plant',
           id: '8fp',
           light: 2,
           water: 1,
@@ -71,7 +71,7 @@ export const plantList = [
      },
      {
           name: 'basilique',
-          category: 'extérieur',
+          category: 'outdoor plant',
           id: '7ie',
           light: 2,
           water: 3,
@@ -80,7 +80,7 @@ export const plantList = [
      },
      {
           name: 'succulente',
-          category: 'plante grasse',
+          category: 'succulent plant',
           id: '9vn',
           light: 2,
           water: 1,
@@ -90,7 +90,7 @@ export const plantList = [
 
      {
           name: 'menthe',
-          category: 'extérieur',
+          category: 'outdoor plant',
           id: '6uo',
           light: 2,
           water: 2,
