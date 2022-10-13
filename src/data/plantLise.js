@@ -70,7 +70,7 @@ export const plantList = [
           price: 6,
      },
      {
-          name: 'basilique',
+          name: 'great basil',
           category: 'outdoor plant',
           id: '7ie',
           light: 2,
@@ -79,7 +79,7 @@ export const plantList = [
           price: 5,
      },
      {
-          name: 'succulente',
+          name: 'succulent',
           category: 'succulent plant',
           id: '9vn',
           light: 2,
@@ -89,7 +89,7 @@ export const plantList = [
      },
 
      {
-          name: 'menthe',
+          name: 'mint',
           category: 'outdoor plant',
           id: '6uo',
           light: 2,
